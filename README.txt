@@ -43,7 +43,9 @@ Create the following collections in the hr_management_db database:
 
 Insert sample data into the admins collection:
 
-	=> hr_management_db.admins.insertOne({ username: "admin1", password: "123" })
+	=> hr_management_db.admins.insertOne({ username: "admin1", password: "$2a$08				$4DzD3emoWNR0ERaw88GYxuve9vXDBUlnThQfGJ4c356K1pKWors3G" })
+
+***NOTE: Password Should be encrypted***
 
 --------------
 Project Setup:|
