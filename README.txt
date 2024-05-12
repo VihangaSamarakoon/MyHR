@@ -32,7 +32,7 @@ Install MongoDB on your local machine if not already installed.
 Start MongoDB service.
 
 Connect to MongoDB and create a new database named 
-	=> hr_management_db.
+	=> hr_management_db
 
 Create the following collections in the hr_management_db database:
 	=> admins
@@ -43,9 +43,10 @@ Create the following collections in the hr_management_db database:
 
 Insert sample data into the admins collection:
 
-	=> hr_management_db.admins.insertOne({ username: "admin1", password: "$2a$08				$4DzD3emoWNR0ERaw88GYxuve9vXDBUlnThQfGJ4c356K1pKWors3G" })
+	=> hr_management_db.admins.insertOne({ username: "admin1", password: "$2a$08$4DzD3emoWNR0ERaw88GYxuve9vXDBUlnThQfGJ4c356K1pKWors3G" })
 
 ***NOTE: Password Should be encrypted***
+$2a$08$4DzD3emoWNR0ERaw88GYxuve9vXDBUlnThQfGJ4c356K1pKWors3G = "123"
 
 --------------
 Project Setup:|
