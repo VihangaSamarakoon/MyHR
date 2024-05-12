@@ -1,0 +1,21 @@
+.logoConatiner {
+    width: 25vb;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0 40% 0;
+    width: fit-content;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .logo1 {
+    color: #fff;
+  }
+  
+  .logo2 {
+    color: #4188f1;
+  }
+  

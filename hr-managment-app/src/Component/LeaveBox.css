@@ -1,0 +1,75 @@
+/* .message-box {
+    background-color: #ebebeb;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .message-label {
+    font-weight: bold;
+  }
+  
+  .message-content {
+    margin-left: 5px;
+  } */
+  :root {
+    font-size: 18px;
+  }
+  
+
+  
+  p {
+    margin: 0;
+    color: #0d0c22;
+  }
+  
+  p:not(:last-child) {
+    margin-bottom: 1.3em;
+  }
+  
+  /* body {
+    font: 1em/1.618 Inter, sans-serif;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 100vh;
+    padding: 30px;
+    margin: 0;
+    
+    color: #224;
+    background:
+      url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)
+      center / cover no-repeat fixed;
+  } */
+  
+  .card {
+    max-width: 300px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-bottom: 11px;
+
+    max-width: 500px;
+    height: 100px;
+    padding: 25px;
+  
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  
+    backdrop-filter: blur(15px);
+  }
+  
+  .card-footer {
+    font-size: 0.65em;
+    color: #446;
+  }
+
+  
+  
+  

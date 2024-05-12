@@ -1,0 +1,21 @@
+.statCard {
+    background-color: #0d0c22;
+    padding: 45px;
+    width: fit-content;
+    min-width: 300px;
+    border-radius: 10px;
+    margin: 25px 25px 0 0;
+  }
+  
+  .statCardp1 {
+      font-size: 18px;
+      font-weight: 500;
+      color: #4188f1;
+  }
+  
+  .statCardp2 {
+      font-size: 30px;
+      font-weight: 600;
+      color: #ed7fdf;
+  }
+  

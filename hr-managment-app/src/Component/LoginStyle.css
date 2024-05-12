@@ -1,0 +1,53 @@
+.topBar{
+    background-color: #0d0c22;
+    padding: 30px 0;
+}
+
+.loginContainer{
+    width: 100%;
+    padding-top: 10%;
+}
+
+.loginCard{
+    background-color: #0d0c22;
+    width: fit-content;
+    margin: auto;
+    border-radius: 15px;
+    padding: 50px 100px 100px;
+    display: grid;
+}
+
+.loginTxt{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.loginForm{
+    display: grid;
+}
+
+.loginp1{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.loginInput{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4188f1;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    transition: 0.5s ease;
+}
+
+.loginInput:focus{
+    transform: scale(1.1);
+}
